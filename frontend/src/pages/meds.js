@@ -1,8 +1,9 @@
 import React  from "react";
+import "./home.css"
 
 function Meds() {
     return (
-        <div>
+        <div className="page_head">
             <h1>This is med page</h1>
         </div>
     );

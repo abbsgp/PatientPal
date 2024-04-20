@@ -50,6 +50,19 @@ NLP_ROUTE = f"{PARENT_ROUTE}/services/"
 # return {"response_code": 200}
 
 
+def translate_text(data: str, target_language="es"):
+    translator = build("translate", "v2", credentials=credentials)
+    if len(data) > 20000:
+        return {
+            "status_code": 400,
+            "error_message": "data must be less than 20000 characters",
+        }
+    request = translator.translations().list(q=data, target=target_language)
+    response = request.execute()
+
+    return response
+
+
 def extract_medical_text(filename: str):
     try:
         reader = PdfReader(filename)
@@ -119,3 +132,5 @@ def make_api_request():
 
 # For testing only
 # print(extract_medical_text("sample_bloodtest.pdf"))
+
+# print(translate_text("Hello world", target_language="es"))

@@ -2,6 +2,7 @@
 from dotenv import load_dotenv
 from fastapi import FastAPI
 import googleapiclient
+import gemini
 import json
 import os
 import uvicorn

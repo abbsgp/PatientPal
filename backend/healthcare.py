@@ -93,11 +93,11 @@ def extract_medical_text(filename: str):
         )
         response = request.execute()
         responses.append(response)
-        
+
     combined = {}
     for i, response in enumerate(responses):
         combined[f"response_{i + 1}"] = response
-        
+
     return json.dumps(combined, sort_keys=True)
 
 
@@ -118,4 +118,4 @@ def make_api_request():
 
 
 # For testing only
-# extract_medical_text("sample_bloodtest.pdf")
+# print(extract_medical_text("sample_bloodtest.pdf"))

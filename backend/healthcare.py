@@ -98,7 +98,7 @@ def extract_medical_text(filename: str):
     for i, response in enumerate(responses):
         combined[f"response_{i + 1}"] = response
         
-    return json.dumps(combined, sort_keys=True, indent=4)
+    return json.dumps(combined, sort_keys=True)
 
 
 # pings the FHIR DB

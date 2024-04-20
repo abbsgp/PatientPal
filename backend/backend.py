@@ -29,7 +29,7 @@ def extract(file: UploadFile = File(...)):
         shutil.copyfileobj(file.file, buffer)
     response = healthcare.extract_medical_text(file.filename)
     os.remove(file.filename)
-    return JSONResponse(content=response)
+    return JSONResponse(content=json.loads(response))
 
 def main():
     try:

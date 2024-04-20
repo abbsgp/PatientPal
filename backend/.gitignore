@@ -1,3 +1,4 @@
 .env
 admin_key.json
 synthea_sample_data_fhir_latest/
+__pycache__

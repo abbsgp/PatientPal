@@ -14,9 +14,14 @@ app = FastAPI()
 def api_entry():
     return {"Welcome": "PatientPal API"}
 
-@app.get("/request-healthcare")
+@app.get("/ping-healthcare")
 def request_healthcare():
     response = healthcare.make_api_request()
+    return response
+
+@app.post("/extract-medical-data")
+def extract(data):
+    response = healthcare.extract_medical_text(data)
     return response
 
 def main():

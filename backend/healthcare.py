@@ -53,7 +53,6 @@ NLP_ROUTE = f"{PARENT_ROUTE}/services/"
 def extract_medical_text(filename: str):
     try:
         reader = PdfReader(filename)
-
     except FileNotFoundError:
         return {"response_code": 400, "error": "invalid filename"}
     pages = reader.pages

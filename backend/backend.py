@@ -1,9 +1,11 @@
 # keep in alphabetical order to keep it clean
 from dotenv import load_dotenv
-from fastapi import FastAPI
+from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.responses import JSONResponse
 import healthcare
 import json
 import os
+import shutil
 import uvicorn
 
 load_dotenv()
@@ -20,9 +22,14 @@ def request_healthcare():
     return response
 
 @app.post("/extract-medical-data")
-def extract(data):
-    response = healthcare.extract_medical_text(data)
-    return response
+def extract(file: UploadFile = File(...)):
+    if file.content_type != "application/pdf":
+        raise HTTPException(status_code=400, detail="Invalid file type. Must be PDF.")
+    with open(file.filename, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+    response = healthcare.extract_medical_text(file.filename)
+    os.remove(file.filename)
+    return JSONResponse(content=response)
 
 def main():
     try:

@@ -6,7 +6,6 @@ function Home() {
     return (
         <div>
             <Header />
-            <p>Home</p>
         </div>
 
     );

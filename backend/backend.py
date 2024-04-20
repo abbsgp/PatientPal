@@ -1,7 +1,7 @@
 # keep in alphabetical order to keep it clean
 from dotenv import load_dotenv
 from fastapi import FastAPI
-import googleapiclient
+import healthcare
 import json
 import os
 import uvicorn
@@ -13,6 +13,11 @@ app = FastAPI()
 @app.get("/")
 def api_entry():
     return {"Welcome": "PatientPal API"}
+
+@app.get("/request-healthcare")
+def request_healthcare():
+    response = healthcare.make_api_request()
+    return response
 
 def main():
     try:

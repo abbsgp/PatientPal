@@ -21,8 +21,12 @@ function UploadPdf() {
     }
     return(
         <div>
-            <input type="file" name="file" onChange={handlePdf}/>
+            <input id="fileInput" type="file" name="file" onChange={handlePdf} />
+            <div className="lab-submit-container">
+            <div  className="lab-submit-button">
             <button onClick={handleApi}>Submit</button>
+            </div>
+            </div>
         </div>
     )
 }
@@ -35,7 +39,9 @@ function Labs() {
             <h1>Labs</h1>
         </div>
         <div className="chat-container">
+            <div className="med-container">
             <UploadPdf />
+            </div>
 
         </div>
         </>

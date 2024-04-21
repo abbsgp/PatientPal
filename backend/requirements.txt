@@ -3,3 +3,4 @@ uvicorn==0.29.0
 python-dotenv==1.0.1
 google-api-python-client==2.126.0
 pypdf==4.2.0
+pydantic==2.7.0

@@ -3,12 +3,21 @@ import "./home.css";
 
 function Meds() {
     const [showResponse, setShowResponse] = useState(false);
+    const [fontSize, setFontSize] = useState(16); // Initial font size
 
     const handleExplainClick = () => {
         setTimeout(() => {
             setShowResponse(!showResponse); 
         }, 2000); 
     };
+
+    function increaseFontSize() {
+        setFontSize(prevSize => prevSize + 2); // Increase font size by 2
+    }
+
+    function decreaseFontSize() {
+        setFontSize(prevSize => Math.max(prevSize - 2, 10)); // Decrease font size by 2, with minimum size 10
+    }
 
     return (
         <>
@@ -25,7 +34,11 @@ function Meds() {
                     </div>
                 </div>
                 {showResponse && (
-                    <div className="response-message">
+                    <div className="response-message" style={{ fontSize: `${fontSize}px` }}>
+                        <div className="font-size-buttons">
+                            <button onClick={increaseFontSize}>+</button>
+                            <button onClick={decreaseFontSize}>-</button>
+                        </div>
                         <p>This medication, <strong>Losartan</strong>, is commonly prescribed to help manage high blood pressure and certain heart conditions. 
                         It works by <strong>relaxing blood vessels</strong>, which helps to lower blood pressure and reduce the workload on the heart. Common 
                         side effects may include <strong>dizziness, fatigue, and changes in kidney function</strong>. It's essential to take this medication 

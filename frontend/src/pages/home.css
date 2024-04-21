@@ -166,3 +166,23 @@
     font-family: Arial, sans-serif;
     color: #333;
 }
+
+.font-size-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.font-size-buttons button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #431c52;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.font-size-buttons button:hover {
+  background-color: #623c74;
+}

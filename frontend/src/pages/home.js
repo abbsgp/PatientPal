@@ -1,4 +1,4 @@
-import  React, { useState } from 'react';
+import  React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import "./home.css";
 
@@ -25,45 +25,29 @@ const Chatbot = () => {
   
     const userMessage = { text: input, user: true };
     setMessages((prevMessages) => [...prevMessages, userMessage]);
+
+    setInput('');
   
     try {
-    //   const summarizeResponse = await axios.post(apiUrl + '/summarize-document', {
-    //     user_input: input,
-    //     language: language,
-    //   });
+        const chatResponse = await axios.post(apiUrl + '/start-chat', {
+          "language": language,
+          "user_input": input
+        }).then((res) => {
+            const aiMessage = { text: res.data.modelResponse, user: false };
+            setMessages((prevMessages) => [...prevMessages, aiMessage]);
+        }).catch((err) => {
+            console.log(err)
+        });      
   
-    //   const summary = summarizeResponse.data.summary;
-  
-      const chatResponse = await axios.post(apiUrl + '/start-chat', {
-        "language": language,
-        "user_input": input
+      } catch (error) {
+        console.error('Error communicating with the backend:', error.message);
       }
-        )
-        .then((res) => {setMessages((prevMessages) => [...prevMessages, res.data.modelResponse]);
-            console.log(res.data.modelResponse);
-        })
-        .catch((error) => {
-            console.error('Error uploading file:', error);
-        });
-    } catch (error) {
-      console.error('Error communicating with the backend:', error.message);
-    }
   
-    setInput('');
   };
+
 
   return (
     <div className="chatbot-container">
-      <div className="chatbot-messages">
-        {messages.map((message, index) => (
-          <div
-            key={index}
-            className={`message ${message.user ? 'user-message' : 'ai-message'}`}
-          >
-            {message.text}
-          </div>
-        ))}
-      </div>
       <form className="chatbot-input-form" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -73,6 +57,15 @@ const Chatbot = () => {
         />
         <button type="submit">Send</button>
       </form>
+      <div className="chatbot-messages">
+        {messages.map((message, index) => (
+          <div
+            key={index}
+          >
+            {message.text}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
@@ -88,15 +81,14 @@ function Home() {
         <><Header /><div className="chat-container">
             <div className="chat-header">
                 <h2>Chat AI</h2>
-            </div>
-            <div className="chat-messages">
                 <Chatbot />
-                {/* Display chat messages */}
+            </div>
+            {/* <div className="chat-messages">
             </div>
             <div className="chat-input">
                 <input type="text" placeholder="Type your message..." />
                 <button>Send</button>
-            </div>
+            </div> */}
         </div></></>
       );
 

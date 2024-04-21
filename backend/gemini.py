@@ -24,25 +24,25 @@ def loadDocument(file_path):
         document = file.read()
     return document
 
-with open('output.json', 'r') as file:
-    input_data = json.load(file)
+# with open('output.json', 'r') as file:
+#     input_data = json.load(file)
 
-user_input = input_data.get('userInput', '')
+# user_input = input_data.get('userInput', '')
 
-prompt = "Summarize this document: "
-prompt_with_input = prompt + user_input
+# prompt = "Summarize this document: "
+# prompt_with_input = prompt + user_input
 
 
-def pass_JSON():
-    
-    """Generates a summary of the document and starts a chat."""
+
+def summarizeDocument(language, document_File_Path):
+    """Generates a summary of the document with prompt."""
     # Load document from output.json
-    input_data = loadDocument('output.json')
+    input_data = loadDocument(document_File_Path)
     # user_input = input_data.get('userInput', '')
-    
-    prompt = "Summarize this document: "
+    usageLanguage = language
+    prompt = f"Summarize this document in {usageLanguage}. What type of text is it. What does it include. What do the results mean.  "
     prompt_with_input = prompt + input_data
-    # print("HAHAHAHAHAHAA", prompt_with_input)
+    
     # Generate summary
     summary = generateSummary(prompt_with_input)
     print("Summary:", summary)
@@ -72,5 +72,7 @@ def pass_JSON():
 
 
 if __name__ == "__main__":
-    pass_JSON()
+    lang = "Spanish"
+    FilePath = 'output.JSON'
+    summarizeDocument(lang, FilePath)
     

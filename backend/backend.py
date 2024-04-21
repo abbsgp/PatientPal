@@ -1,5 +1,7 @@
 # keep in alphabetical order to keep it clean
 from dotenv import load_dotenv
+import googleapiclient
+import gemini
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
 import healthcare

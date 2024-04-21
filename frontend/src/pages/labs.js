@@ -9,6 +9,7 @@ function UploadPdf() {
     const [pageLimit, setPageLimit] = useState(2);
     const [responseMessage, setResponseMessage] = useState('');
     const [fontSize, setFontSize] = useState(16); // Initial font size
+    const [showSpanish, setShowSpanish] = useState(false); // State to toggle Spanish translation
 
     function handlePdf(e) {
         setPdf(e.target.files[0]);
@@ -35,6 +36,10 @@ function UploadPdf() {
         setFontSize(prevSize => Math.max(prevSize - 2, 10)); // Decrease font size by 2, with minimum size 10
     }
 
+    function translateToSpanish() {
+        setShowSpanish(true); // Set showSpanish state to true
+    }
+
     return (
         <div>
             <input type="file" name="file" onChange={handlePdf} />
@@ -49,6 +54,7 @@ function UploadPdf() {
                 <div className="font-size-buttons">
                     <button onClick={increaseFontSize}>+</button>
                     <button onClick={decreaseFontSize}>-</button>
+                    <button className="chat-ai-button" onClick={translateToSpanish}>Translate to Spanish</button>
                 </div>
                     <p>
                         Your recent blood report, called a Complete Blood Count (CBC), indicates several important findings:
@@ -67,6 +73,25 @@ function UploadPdf() {
                     </p>
                 </div>
                 </>
+            )}{showSpanish && (
+                <div className="response-message" style={{ fontSize: `${fontSize}px` }}>
+                    <p>
+                    Su reciente informe de sangre, llamado recuento sanguíneo completo (CBC), indica varios hallazgos importantes:
+                    </p>
+                    <p>
+                    1. <strong>Anemia</strong>: Su nivel de hemoglobina está bajo, lo que puede explicar la sensación de fatiga y debilidad. Esta condición requiere atención para mejorar sus niveles de energía y su salud en general.
+                    </p>
+                    <p>
+                    2. <strong>Características de los glóbulos rojos</strong>: Las anormalidades en el tamaño y la concentración de glóbulos rojos sugieren deficiencias potenciales de hierro o ciertas vitaminas. Estos pueden contribuir a su anemia y requieren una investigación adicional.
+                    </p>
+                    <p>
+                    3. <strong>Recuento de plaquetas</strong>: Su recuento de plaquetas es más bajo de lo esperado, lo que aumenta su riesgo de moretones y sangrado. Es importante monitorear y discutir esto con su proveedor de atención médica.
+                    </p>
+                    <p>
+                    Estos hallazgos resaltan problemas de salud potenciales que necesitan una evaluación y manejo adicionales. Es esencial programar una cita de seguimiento con su proveedor de atención médica para discutir estos resultados en detalle y determinar el mejor curso de acción para su salud.
+                    </p>
+
+                </div>
             )}
         </div>
     );

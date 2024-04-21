@@ -109,7 +109,7 @@ def extract_medical_text(filename: str):
 
     combined = {}
     for i, response in enumerate(responses):
-        combined[f"response_{i + 1}"] = response
+        combined[f"{i + 1}"] = response
 
     return json.dumps(combined, sort_keys=True)
 

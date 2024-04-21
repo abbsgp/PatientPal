@@ -1,8 +1,22 @@
+.header {
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  min-height: 100%;
+  color: #431c52;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  z-index: 1000;
+}
+
 .page_head {
     display: flex;
     position: relative;
     background-color: transparent;
     min-height: 100%;
+    margin-top: 50px;
     color: #431c52;
     justify-content: center;
     align-items: center;
@@ -13,11 +27,13 @@
 
 .chat-container {
     position: fixed;
-    top: 50%;
-    right: 25%; 
+    top: 49%;
+    /* right: 30%;  */
     transform: translateY(-50%);
-    width: 500px; 
-    height: 250px;
+    margin-top: 3%;
+    margin-left: 30%;
+    width: 45%; 
+    height: 55%;
     background-color: #ffffff;
     padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -65,3 +81,4 @@
     background-color: #623c74;
     color: burlywood;
   }
+

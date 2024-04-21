@@ -46,11 +46,13 @@
   .chat-header {
     text-align: center;
     margin-bottom: 20px;
+    top: -20px;
   }
   
   .chat-messages {
-    max-height: calc(100% - 120px); 
-    overflow-y: auto; 
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
   }
   
   .chat-input {
@@ -125,7 +127,7 @@
 
 
   .lab-submit-container {
-    position: absolute;
+    position: relative;
     top: 10px; /* Adjust top position as needed */
     right: 10px; /* Adjust right position as needed */
     padding: 10px 25px;
@@ -137,9 +139,9 @@
   }
 
   .lab-submit-container button {
-    position: absolute;
-    top: 55%;
-    right: 10px;
+    position: fixed;
+    top: 20%;
+    right: 100px;
     transform: translateY(-50%);
     background-color: #431c52;
     color: #fff;
@@ -155,3 +157,12 @@
     color: burlywood;
   }
 
+  .response-message {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}

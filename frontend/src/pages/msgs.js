@@ -3,9 +3,14 @@ import "./home.css"
 
 function Msgs() {
     return (
+        <>
         <div className="page_head">
-            <h1>This is msgs page</h1>
+            <h1>Messages</h1>
         </div>
+        <div className="chat-container">
+
+        </div>
+        </>
     );
 };
 

@@ -2,6 +2,7 @@
 from dotenv import load_dotenv
 import googleapiclient
 import geminiAPI
+import audio
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
@@ -67,6 +68,16 @@ async def summarize_file(request_body: DocumentSummaryRequest):
         raise HTTPException(status_code=400, detail="Try")
     
     return summary
+
+@app.post("/record-upload-Audio")
+async def record_uploadAudio():
+    try:
+        summary = audio.generate_userAudio()
+    except Exception as e:
+        raise HTTPException(status_code=400, detail="Try")
+    
+    return summary
+
 
 class UserInput(BaseModel):
     language: str

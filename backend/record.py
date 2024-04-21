@@ -21,5 +21,4 @@ sd.wait()
 # file with the given sampling frequency
 write("recording0.wav", freq, recording)
 
-# Convert the NumPy array to audio file
-wv.write("recording1.wav", recording, freq, sampwidth=2)
+

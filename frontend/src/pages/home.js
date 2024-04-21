@@ -27,28 +27,26 @@ const Chatbot = () => {
     setMessages((prevMessages) => [...prevMessages, userMessage]);
   
     try {
-      // Send user input to the summarize document endpoint
-      const summarizeResponse = await axios.post(apiUrl + '/summarize-document', {
-        user_input: input,
-        language: language,
-        file_path: apiUrl + '/output.JSON'
-      });
+    //   const summarizeResponse = await axios.post(apiUrl + '/summarize-document', {
+    //     user_input: input,
+    //     language: language,
+    //   });
   
-      // Extract the summary from the response
-      const summary = summarizeResponse.data.summary;
+    //   const summary = summarizeResponse.data.summary;
   
-      // Send the summary to the start chat endpoint
       const chatResponse = await axios.post(apiUrl + '/start-chat', {
-        user_input: summary,
-        language: language
-      });
-  
-      // Add the chatbot's response to the messages array
-      const aiMessage = { text: chatResponse.data.model_response, user: false };
-      setMessages((prevMessages) => [...prevMessages, aiMessage]);
+        "language": language,
+        "user_input": input
+      }
+        )
+        .then((res) => {setMessages((prevMessages) => [...prevMessages, res.data.modelResponse]);
+            console.log(res.data.modelResponse);
+        })
+        .catch((error) => {
+            console.error('Error uploading file:', error);
+        });
     } catch (error) {
       console.error('Error communicating with the backend:', error.message);
-      // Handle error if communication with backend fails
     }
   
     setInput('');

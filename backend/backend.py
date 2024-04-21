@@ -72,11 +72,14 @@ async def summarize_file(request_body: DocumentSummaryRequest):
 @app.get("/record-upload-Audio")
 async def record_uploadAudio():
     try:
-        summary = audio.generate_userAudio()
+        response = audio.generate_userAudio()
+        if response:
+            return response
+        else:
+            raise HTTPException(status_code=400, detail="Null response from audio processing")
     except Exception as e:
-        raise HTTPException(status_code=400, detail="Try")
-    
-    return summary
+        raise HTTPException(status_code=400, detail="Error processing audio")
+
 
 
 class UserInput(BaseModel):

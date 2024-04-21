@@ -17,7 +17,7 @@ genai.configure(api_key=api_key)
 # Sampling frequency
 freq = 44100
 # Recording duration
-duration = 10
+duration = 5
 # filename
 file_name = "userRecording.wav"
 
@@ -51,7 +51,6 @@ def generate_userAudio():
     
     record()
     
-    model_response =uploadAudio()
-    return model_response
+    return uploadAudio()
 
     

@@ -51,4 +51,7 @@ def generate_userAudio():
     
     record()
     
-    uploadAudio()
+    model_response =uploadAudio()
+    return model_response
+
+    

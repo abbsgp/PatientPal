@@ -69,7 +69,7 @@ async def summarize_file(request_body: DocumentSummaryRequest):
     
     return summary
 
-@app.post("/record-upload-Audio")
+@app.get("/record-upload-Audio")
 async def record_uploadAudio():
     try:
         summary = audio.generate_userAudio()

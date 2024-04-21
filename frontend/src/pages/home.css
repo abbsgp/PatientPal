@@ -40,6 +40,7 @@
     z-index: 1000;
     overflow-y: auto; 
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
   }
   
   .chat-header {
@@ -78,6 +79,78 @@
   }
   
   .chat-input button:hover {
+    background-color: #623c74;
+    color: burlywood;
+  }
+
+  .med-container {
+    position: relative;
+    padding: 25px 25px;
+    background-color: rgb(222, 213, 231);
+    color: black;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .chat-ai-interpreter-container {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    padding: 10px 25px;
+    width: 10px;
+    height: 40%;
+    border: none;
+    border-radius: 5px;
+
+  }
+
+  .chat-ai-interpreter-container button {
+    position: absolute;
+    top: 65%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #431c52;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Adjust border radius for rounded corners */
+    padding: 10px 10px; /* Increase padding for larger size */
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .chat-ai-interpreter-container button:hover {
+    background-color: #623c74;
+    color: burlywood;
+  }
+
+
+  .lab-submit-container {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    padding: 10px 25px;
+    width: 10px;
+    height: 40%;
+    border: none;
+    border-radius: 5px;
+
+  }
+
+  .lab-submit-container button {
+    position: absolute;
+    top: 55%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #431c52;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Adjust border radius for rounded corners */
+    padding: 10px 10px; /* Increase padding for larger size */
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .lab-submit-container button:hover {
     background-color: #623c74;
     color: burlywood;
   }

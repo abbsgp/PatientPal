@@ -1,0 +1,1572 @@
+{
+    "1": {
+        "entities": [
+            {
+                "entityId": "UMLS/C0004827",
+                "preferredTerm": "Basophils",
+                "vocabularyCodes": [
+                    "FMA/62862",
+                    "LNC/LA28287-3",
+                    "LNC/LP14328-6",
+                    "LNC/MTHU012774",
+                    "MSH/D001491",
+                    "MTH/NOCODE",
+                    "MTH/U000170",
+                    "NCI/C12531"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0008569",
+                "preferredTerm": "Thin Layer Chromatography",
+                "vocabularyCodes": [
+                    "LNC/LP6557-5",
+                    "MSH/D002855",
+                    "MTH/NOCODE"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0009555",
+                "preferredTerm": "Complete Blood Count",
+                "vocabularyCodes": [
+                    "MEDLINEPLUS/6351",
+                    "MSH/D001772",
+                    "MTH/NOCODE",
+                    "MTH/U000007",
+                    "MTH/U000075",
+                    "NCI/C28133"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0013618",
+                "preferredTerm": "edetic acid",
+                "vocabularyCodes": [
+                    "MSH/D004492",
+                    "MTH/NOCODE",
+                    "NCI/C61742",
+                    "RXNORM/3755",
+                    "VANDF/4017479"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0014467",
+                "preferredTerm": "eosinophil",
+                "vocabularyCodes": [
+                    "FMA/62861",
+                    "LNC/LA12895-1",
+                    "LNC/LP14539-8",
+                    "LNC/MTHU009211",
+                    "MSH/D004804",
+                    "MTH/NOCODE",
+                    "MTH/U000171",
+                    "NCI/C12532"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0018935",
+                "preferredTerm": "Hematocrit Measurement",
+                "vocabularyCodes": [
+                    "LNC/LP15101-6",
+                    "LNC/MTHU002446",
+                    "MSH/D006400",
+                    "MTH/NOCODE",
+                    "MTH/U000010",
+                    "MTH/U000078",
+                    "MTH/U000153",
+                    "NCI/C64796"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0023508",
+                "preferredTerm": "White Blood Cell Count procedure",
+                "vocabularyCodes": [
+                    "MSH/D007958",
+                    "MTH/U000013",
+                    "MTH/U000081",
+                    "MTH/U000158",
+                    "MTH/U002041",
+                    "NCI/C51948"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0023516",
+                "preferredTerm": "Leukocytes",
+                "vocabularyCodes": [
+                    "FMA/62852",
+                    "LNC/LA12894-4",
+                    "LNC/LP14419-3",
+                    "LNC/LP157588-7",
+                    "LNC/LP7720-8",
+                    "LNC/MTHU001946",
+                    "LNC/MTHU051577",
+                    "MSH/D007962",
+                    "MTH/NOCODE",
+                    "MTH/U000080",
+                    "MTH/U000173",
+                    "NCI/C12529"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0024264",
+                "preferredTerm": "Lymphocyte",
+                "vocabularyCodes": [
+                    "FMA/62863",
+                    "LNC/LA28286-5",
+                    "LNC/LP14540-6",
+                    "LNC/LP30914-3",
+                    "LNC/MTHU004645",
+                    "MSH/D008214",
+                    "MTH/NOCODE",
+                    "MTH/U000176",
+                    "NCI/C12535"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0026473",
+                "preferredTerm": "Monocytes",
+                "vocabularyCodes": [
+                    "FMA/62864",
+                    "LNC/LA28288-1",
+                    "LNC/LP14313-8",
+                    "LNC/LP32104-9",
+                    "LNC/LP411256-3",
+                    "LNC/MTHU012776",
+                    "LNC/MTHU063387",
+                    "MSH/D009000",
+                    "MTH/NOCODE",
+                    "MTH/U000177",
+                    "NCI/C12547"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0027950",
+                "preferredTerm": "neutrophil",
+                "vocabularyCodes": [
+                    "FMA/62860",
+                    "LNC/LA28282-4",
+                    "LNC/LP14267-6",
+                    "LNC/LP16686-5",
+                    "LNC/LP17840-7",
+                    "LNC/LP411252-2",
+                    "LNC/MTHU006207",
+                    "LNC/MTHU009212",
+                    "LNC/MTHU063389",
+                    "MSH/D009504",
+                    "MTH/NOCODE",
+                    "MTH/U000178",
+                    "NCI/C12533"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0032181",
+                "preferredTerm": "Platelet count (procedure)",
+                "vocabularyCodes": [
+                    "MSH/D010976",
+                    "MTH/NOCODE",
+                    "MTH/U000021",
+                    "NCI/C51951"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0072225",
+                "preferredTerm": "propylene glycol",
+                "vocabularyCodes": [
+                    "LNC/LP18147-6",
+                    "LNC/MTHU003468",
+                    "MSH/D019946",
+                    "MTH/NOCODE",
+                    "NCI/C29388",
+                    "RXNORM/34693",
+                    "VANDF/4017526"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0124847",
+                "preferredTerm": "eptazocine hydrobromide",
+                "vocabularyCodes": [
+                    "MSH/C024677",
+                    "NCI/C96732"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0200665",
+                "preferredTerm": "Platelet mean volume determination (procedure)",
+                "vocabularyCodes": [
+                    "MSH/D063847",
+                    "MTH/NOCODE",
+                    "NCI/C74730"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0229640",
+                "preferredTerm": "Segmented neutrophil",
+                "vocabularyCodes": [
+                    "LNC/LP29151-5",
+                    "LNC/LP428136-8",
+                    "LNC/MTHU013777",
+                    "MTH/NOCODE",
+                    "NCI/C36719"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0299555",
+                "preferredTerm": "polyvalent melanoma cell vaccine",
+                "vocabularyCodes": [
+                    "MSH/C094534",
+                    "NCI/C1633"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0427460",
+                "preferredTerm": "Red cell distribution width determination",
+                "vocabularyCodes": [
+                    "LNC/LP17698-9",
+                    "LNC/MTHU009421",
+                    "MSH/D004909",
+                    "MTH/NOCODE",
+                    "NCI/C64800"
+                ]
+            },
+            {
+                "entityId": "UMLS/C0675121",
+                "preferredTerm": "DLC1 protein, human",
+                "vocabularyCodes": [
+                    "MSH/C112352",
+                    "MTH/NOCODE",
+                    "NCI/C21508"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1309070",
+                "preferredTerm": "DLEC1 protein, human",
+                "vocabularyCodes": [
+                    "MSH/C119064",
+                    "MTH/NOCODE",
+                    "NCI/C26218"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1333567",
+                "preferredTerm": "FLT3LG gene",
+                "vocabularyCodes": [
+                    "HGNC/HGNC:3766",
+                    "MTH/NOCODE",
+                    "NCI/C21551",
+                    "OMIM/600007"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1334295",
+                "preferredTerm": "JUP gene",
+                "vocabularyCodes": [
+                    "HGNC/HGNC:6207",
+                    "MTH/NOCODE",
+                    "NCI/C21280",
+                    "OMIM/173325"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1366509",
+                "preferredTerm": "DLC1 gene",
+                "vocabularyCodes": [
+                    "HGNC/HGNC:2897",
+                    "MTH/NOCODE",
+                    "NCI/C20783",
+                    "OMIM/604258"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1412440",
+                "preferredTerm": "AP1S2 gene",
+                "vocabularyCodes": [
+                    "HGNC/HGNC:560",
+                    "MTH/NOCODE",
+                    "OMIM/300629"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1416805",
+                "preferredTerm": "LCN1 gene",
+                "vocabularyCodes": [
+                    "HGNC/HGNC:6525",
+                    "MTH/NOCODE",
+                    "OMIM/151675"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1418669",
+                "preferredTerm": "PMCH gene",
+                "vocabularyCodes": [
+                    "HGNC/HGNC:9109",
+                    "MTH/NOCODE",
+                    "OMIM/176795"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1705128",
+                "preferredTerm": "DLEC1 wt Allele",
+                "vocabularyCodes": [
+                    "MTH/NOCODE",
+                    "NCI/C54432"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1708024",
+                "preferredTerm": "FLT3LG wt Allele",
+                "vocabularyCodes": [
+                    "MTH/NOCODE",
+                    "NCI/C49785"
+                ]
+            },
+            {
+                "entityId": "UMLS/C1868501",
+                "preferredTerm": "PEPSINOGEN GENE",
+                "vocabularyCodes": [
+                    "MTH/NOCODE",
+                    "OMIM/169700"
+                ]
+            },
+            {
+                "entityId": "UMLS/C2827735",
+                "preferredTerm": "2+ Score",
+                "vocabularyCodes": [
+                    "MTH/NOCODE",
+                    "NCI/C85526"
+                ]
+            },
+            {
+                "entityId": "UMLS/C2981700",
+                "preferredTerm": "2+ Score, WHO",
+                "vocabularyCodes": [
+                    "MTH/NOCODE",
+                    "NCI/C88128"
+                ]
+            },
+            {
+                "entityId": "UMLS/C3833492",
+                "preferredTerm": "2+",
+                "vocabularyCodes": [
+                    "LNC/LA11842-4",
+                    "MTH/NOCODE"
+                ]
+            },
+            {
+                "entityId": "UMLS/C3841581",
+                "preferredTerm": "18 lead",
+                "vocabularyCodes": [
+                    "LNC/LA18670-2"
+                ]
+            },
+            {
+                "entityId": "UMLS/C4528260",
+                "preferredTerm": "Red Cell Volume Distribution Width Standard Deviation",
+                "vocabularyCodes": [
+                    "NCI/C139071"
+                ]
+            },
+            {
+                "entityId": "UMLS/C4721815",
+                "preferredTerm": "2 (finding)",
+                "vocabularyCodes": [
+                    "LNC/LA6113-0",
+                    "MTH/NOCODE"
+                ]
+            },
+            {
+                "entityId": "UMLS/C5148322",
+                "preferredTerm": "Osmotic fragility^0.40% sodium chloride",
+                "vocabularyCodes": [
+                    "LNC/LP308178-5"
+                ]
+            },
+            {
+                "entityId": "UMLS/C5239233",
+                "preferredTerm": "CSF RBC Count",
+                "vocabularyCodes": [
+                    "NCI/C168920"
+                ]
+            },
+            {
+                "entityId": "UMLS/C5435720",
+                "preferredTerm": "Urine pH >6.5",
+                "vocabularyCodes": [
+                    "OMIM/MTHU071540"
+                ]
+            }
+        ],
+        "entityMentions": [
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9962454438209534,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.4454498887062073,
+                "mentionId": "1",
+                "subject": {
+                    "confidence": 0.9992597103118896,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9984780550003052,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 342,
+                    "content": "ROHINI\nDELHI"
+                },
+                "type": "MEDICINE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9648211598396301,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.8086094260215759,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0009555"
+                    }
+                ],
+                "mentionId": "2",
+                "subject": {
+                    "confidence": 0.9064001441001892,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9446191191673279,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 554,
+                    "content": "BLOOD COUNT"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9439020752906799,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0009555"
+                    }
+                ],
+                "mentionId": "3",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9995808005332947,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 566,
+                    "content": "CBC\nHemoglobin"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.8540343642234802,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0018935"
+                    }
+                ],
+                "mentionId": "4",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996917247772217,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 619,
+                    "content": "Packed Cell Volume"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.5906619429588318,
+                "mentionId": "5",
+                "text": {
+                    "beginOffset": 657,
+                    "content": "40.00"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9432856440544128,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C5239233"
+                    }
+                ],
+                "mentionId": "6",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 679,
+                    "content": "RBC Count"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996985197067261,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.7690397500991821,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0124847"
+                    },
+                    {
+                        "entityId": "UMLS/C0299555"
+                    }
+                ],
+                "mentionId": "7",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9989413022994995,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 738,
+                    "content": "MCV"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.3968401551246643,
+                "mentionId": "8",
+                "text": {
+                    "beginOffset": 765,
+                    "content": "83.00"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9991117715835571,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.4982061982154846,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C1333567"
+                    },
+                    {
+                        "entityId": "UMLS/C1708024"
+                    }
+                ],
+                "mentionId": "9",
+                "subject": {
+                    "confidence": 0.9989092350006104,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.997186541557312,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 780,
+                    "content": "fL"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996660947799683,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9248707890510559,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C1418669"
+                    }
+                ],
+                "mentionId": "10",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9987215995788574,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 789,
+                    "content": "MCH"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.641933262348175,
+                "mentionId": "11",
+                "text": {
+                    "beginOffset": 806,
+                    "content": "27.00"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.7453483939170837,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.6803247928619385,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0072225"
+                    },
+                    {
+                        "entityId": "UMLS/C1334295"
+                    },
+                    {
+                        "entityId": "UMLS/C1412440"
+                    },
+                    {
+                        "entityId": "UMLS/C1868501"
+                    }
+                ],
+                "mentionId": "12",
+                "subject": {
+                    "confidence": 0.6018798351287842,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.7503363490104675,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 820,
+                    "content": "pg"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996002316474915,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.952346682548523,
+                "mentionId": "13",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9994653463363647,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 829,
+                    "content": "MCHC"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.8937398195266724,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0427460"
+                    }
+                ],
+                "mentionId": "14",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9994001984596252,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 872,
+                    "content": "Red Cell Distribution Width"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9990769624710083,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.4048798680305481,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C4528260"
+                    }
+                ],
+                "mentionId": "15",
+                "subject": {
+                    "confidence": 0.9995869994163513,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9979296922683716,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 901,
+                    "content": "RDW"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9537553191184998,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0023508"
+                    }
+                ],
+                "mentionId": "16",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996097683906555,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 951,
+                    "content": "Total Leukocyte Count"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9994868636131287,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.5494455695152283,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0008569"
+                    },
+                    {
+                        "entityId": "UMLS/C1416805"
+                    }
+                ],
+                "mentionId": "17",
+                "subject": {
+                    "confidence": 0.9993287920951843,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.998246967792511,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 975,
+                    "content": "TLC"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9995492100715637,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9021381139755249,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0023516"
+                    }
+                ],
+                "mentionId": "18",
+                "subject": {
+                    "confidence": 0.9995543956756592,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.998579740524292,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1030,
+                    "content": "Differential Leucocyte Count"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9475582242012024,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.6311222314834595,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0675121"
+                    },
+                    {
+                        "entityId": "UMLS/C1309070"
+                    },
+                    {
+                        "entityId": "UMLS/C1366509"
+                    },
+                    {
+                        "entityId": "UMLS/C1705128"
+                    }
+                ],
+                "mentionId": "19",
+                "subject": {
+                    "confidence": 0.8413475751876831,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9084812998771667,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1060,
+                    "content": "DLC"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.5821458101272583,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0229640"
+                    }
+                ],
+                "mentionId": "20",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1097,
+                    "content": "Segmented Neutrophils"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.8703009486198425,
+                "mentionId": "21",
+                "text": {
+                    "beginOffset": 1119,
+                    "content": "%"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9980946779251099,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0024264"
+                    }
+                ],
+                "mentionId": "22",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1142,
+                    "content": "Lymphocytes"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.9102983474731445,
+                "mentionId": "23",
+                "text": {
+                    "beginOffset": 1154,
+                    "content": "%"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996505379676819,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9983037710189819,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0026473"
+                    }
+                ],
+                "mentionId": "24",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1176,
+                    "content": "Monocytes"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.8708996772766113,
+                "mentionId": "25",
+                "text": {
+                    "beginOffset": 1186,
+                    "content": "%"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9970263838768005,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0014467"
+                    }
+                ],
+                "mentionId": "26",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1206,
+                    "content": "Eosinophils"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.9355846643447876,
+                "mentionId": "27",
+                "text": {
+                    "beginOffset": 1218,
+                    "content": "%"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "confidence": 0.493651807308197,
+                "mentionId": "28",
+                "text": {
+                    "beginOffset": 1220,
+                    "content": "5.00"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9965108633041382,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0004827"
+                    }
+                ],
+                "mentionId": "29",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1232,
+                    "content": "Basophils"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.9086501598358154,
+                "mentionId": "30",
+                "text": {
+                    "beginOffset": 1242,
+                    "content": "%"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.8820957541465759,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0023516"
+                    }
+                ],
+                "mentionId": "31",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1249,
+                    "content": "Absolute Leucocyte Count"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.5951330661773682,
+                "mentionId": "32",
+                "text": {
+                    "beginOffset": 1288,
+                    "content": "2.00"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9971656799316406,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0027950"
+                    }
+                ],
+                "mentionId": "33",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1300,
+                    "content": "Neutrophils"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.7662227153778076,
+                "mentionId": "34",
+                "text": {
+                    "beginOffset": 1312,
+                    "content": "thou/mm3"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.996902585029602,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0024264"
+                    }
+                ],
+                "mentionId": "35",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1339,
+                    "content": "Lymphocytes"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.7174152135848999,
+                "mentionId": "36",
+                "text": {
+                    "beginOffset": 1351,
+                    "content": "thou/mm3"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "confidence": 0.4577413499355316,
+                "mentionId": "37",
+                "text": {
+                    "beginOffset": 1360,
+                    "content": "2.40"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9965617060661316,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0026473"
+                    }
+                ],
+                "mentionId": "38",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1378,
+                    "content": "Monocytes"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.7593398690223694,
+                "mentionId": "39",
+                "text": {
+                    "beginOffset": 1388,
+                    "content": "thou/mm3"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.88678377866745,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0014467"
+                    }
+                ],
+                "mentionId": "40",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1415,
+                    "content": "Eosinophils"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.8050234317779541,
+                "mentionId": "41",
+                "text": {
+                    "beginOffset": 1427,
+                    "content": "thou/mm3"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "confidence": 0.5908467173576355,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C5148322"
+                    }
+                ],
+                "mentionId": "42",
+                "text": {
+                    "beginOffset": 1436,
+                    "content": "0.40"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9995808005332947,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9916545748710632,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0004827"
+                    }
+                ],
+                "mentionId": "43",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9994908571243286,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1454,
+                    "content": "Basophils"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.7687071561813354,
+                "mentionId": "44",
+                "text": {
+                    "beginOffset": 1464,
+                    "content": "thou/mm3"
+                },
+                "type": "LAB_UNIT"
+            },
+            {
+                "confidence": 0.5400692820549011,
+                "mentionId": "45",
+                "text": {
+                    "beginOffset": 1473,
+                    "content": "0.00"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9338000416755676,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0032181"
+                    }
+                ],
+                "mentionId": "46",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9995891451835632,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1478,
+                    "content": "Platelet Count"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.7421460747718811,
+                "mentionId": "47",
+                "text": {
+                    "beginOffset": 1516,
+                    "content": "150.00"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9996469616889954,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.9072981476783752,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0200665"
+                    }
+                ],
+                "mentionId": "48",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9996985197067261,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1545,
+                    "content": "Mean Platelet Volume"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.6096946001052856,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C5435720"
+                    }
+                ],
+                "mentionId": "49",
+                "text": {
+                    "beginOffset": 1589,
+                    "content": "6.5"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9971755146980286,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.40817344188690186,
+                "mentionId": "50",
+                "subject": {
+                    "confidence": 0.9997164607048035,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9989779591560364,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 1977,
+                    "content": "ROHINI\nDELHI"
+                },
+                "type": "MEDICINE"
+            },
+            {
+                "confidence": 0.4049234688282013,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C3841581"
+                    }
+                ],
+                "mentionId": "51",
+                "text": {
+                    "beginOffset": 2071,
+                    "content": "18"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9994921684265137,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.8108595013618469,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0023516"
+                    }
+                ],
+                "mentionId": "52",
+                "subject": {
+                    "confidence": 0.9992507100105286,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.9962916970252991,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 2260,
+                    "content": "differential\n    leucocyte counts"
+                },
+                "type": "LABORATORY_DATA"
+            },
+            {
+                "confidence": 0.5938659310340881,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C2827735"
+                    },
+                    {
+                        "entityId": "UMLS/C2981700"
+                    },
+                    {
+                        "entityId": "UMLS/C3833492"
+                    },
+                    {
+                        "entityId": "UMLS/C4721815"
+                    }
+                ],
+                "mentionId": "53",
+                "text": {
+                    "beginOffset": 2414,
+                    "content": "2"
+                },
+                "type": "LAB_VALUE"
+            },
+            {
+                "certaintyAssessment": {
+                    "confidence": 0.9994114637374878,
+                    "value": "LIKELY"
+                },
+                "confidence": 0.5542699694633484,
+                "linkedEntities": [
+                    {
+                        "entityId": "UMLS/C0013618"
+                    }
+                ],
+                "mentionId": "54",
+                "subject": {
+                    "confidence": 0.9996469616889954,
+                    "value": "PATIENT"
+                },
+                "temporalAssessment": {
+                    "confidence": 0.998647928237915,
+                    "value": "CURRENT"
+                },
+                "text": {
+                    "beginOffset": 2435,
+                    "content": "EDTA whole blood"
+                },
+                "type": "LABORATORY_DATA"
+            }
+        ],
+        "relationships": [
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "11",
+                "subjectId": "10"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "21",
+                "subjectId": "20"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "23",
+                "subjectId": "22"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "25",
+                "subjectId": "24"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "27",
+                "subjectId": "26"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "28",
+                "subjectId": "26"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "30",
+                "subjectId": "29"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "32",
+                "subjectId": "31"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "34",
+                "subjectId": "33"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "36",
+                "subjectId": "35"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "37",
+                "subjectId": "35"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "39",
+                "subjectId": "38"
+            },
+            {
+                "confidence": 0.9918063879013062,
+                "objectId": "5",
+                "subjectId": "4"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "41",
+                "subjectId": "40"
+            },
+            {
+                "confidence": 0.99968022108078,
+                "objectId": "42",
+                "subjectId": "40"
+            },
+            {
+                "confidence": 0.9996469616889954,
+                "objectId": "44",
+                "subjectId": "43"
+            },
+            {
+                "confidence": 0.9152430891990662,
+                "objectId": "45",
+                "subjectId": "43"
+            },
+            {
+                "confidence": 0.9996856451034546,
+                "objectId": "47",
+                "subjectId": "46"
+            },
+            {
+                "confidence": 0.988422155380249,
+                "objectId": "49",
+                "subjectId": "48"
+            },
+            {
+                "confidence": 0.9971238374710083,
+                "objectId": "8",
+                "subjectId": "7"
+            }
+        ]
+    }
+}

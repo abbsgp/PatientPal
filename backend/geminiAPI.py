@@ -32,8 +32,14 @@ def loadDocument(file_path):
 # prompt = "Summarize this document: "
 # prompt_with_input = prompt + user_input
 
-def returnSummarizeDocument():
+def returnSummarizeDocument(summary, choice):
     '''saving Document summary.'''
+    if choice ==1:
+        return {"Summary": summary}
+    elif choice == 2:
+        return summary
+
+
     
 def saveChatHistory(chat_history, file_path):
     """Saves the chat history to a JSON file."""
@@ -47,36 +53,41 @@ def summarizeDocument(language, document_File_Path):
     input_data = loadDocument(document_File_Path)
     # user_input = input_data.get('userInput', '')
     usageLanguage = language
-    prompt = f"Summarize this document in {usageLanguage}. What type of text is it. What does it include. What do the results mean.  "
+    prompt = f"Summarize this document with simple terms in {usageLanguage} using a paragraph format. only use 5 - 6 sentences. What type of text is it. What does it include. What do the results mean.  "
     prompt_with_input = prompt + input_data
     
     # Generate summary
     summary = generateSummary(prompt_with_input)
     print("Summary:", summary)
     # saveChatHistory()
-    
+    # saveDocumentSummary(summary, 'chat_history.json')
     return {"Summary": summary}
 
-def startChat(userInput, chat_history=None):
+def saveDocumentSummary(summary, file_path):
+    """Saves the document summary to a file."""
+    with open(file_path, 'w') as file:
+        file.write(summary)
+
+def startChat(userInput, language):
     """Starts a chat with user"""
 #   """Uses Gemini API to generate a simple greeting."""
     model = genai.GenerativeModel('gemini-pro')
     
     #Chat history
-    if chat_history is None:
-        chat = model.start_chat(history=[])
-    else:
-        chat = model.start_chat(history=chat_history)
-
-  # Sending response
-    response = chat.send_message(userInput)
+    chat = model.start_chat(history=[])
+    
+    inputToModel = f"Respond in {language}. Keep it to 3 sentences" + userInput
+    response = chat.send_message(inputToModel)
+    modelResponse = response.text
 
     print(response.text)
-  
+    return {"modelResponse": modelResponse}
 
 
 # if __name__ == "__main__":
 #     lang = "Spanish"
 #     FilePath = 'output.JSON'
 #     summarizeDocument(lang, FilePath)
-    
+#     print("Responding to user here:")
+#     startChat("What is the blood test result?", lang)
+#     # startChat("what is the blood test?", 'chat_history.json')

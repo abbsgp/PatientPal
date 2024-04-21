@@ -56,6 +56,7 @@ class DocumentSummaryRequest(BaseModel):
     language: str
     file_path: str
     
+    
 @app.post("/summarize-document")
 async def summarize_file(request_body: DocumentSummaryRequest):
     language = request_body.language
@@ -66,6 +67,22 @@ async def summarize_file(request_body: DocumentSummaryRequest):
         raise HTTPException(status_code=400, detail="Try")
     
     return summary
+
+class UserInput(BaseModel):
+    language: str
+    user_input:str
+    
+    
+@app.post("/start-chat")
+async def start_chat(request_body: UserInput):
+    language = request_body.language
+    user_input = request_body.user_input
+    try:
+        model_response = geminiAPI.startChat(user_input, language)
+    except Exception as e:
+        return {"error": "teehheee"}
+    
+    return model_response
 
 
 def main():

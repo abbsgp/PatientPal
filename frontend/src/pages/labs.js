@@ -3,9 +3,15 @@ import "./home.css"
 
 function Labs() {
     return (
+
+        <>
         <div className="page_head">
-            <h1>This is lab page</h1>
+            <h1>Asta's Labs</h1>
         </div>
+        <div className="chat-container">
+
+        </div>
+        </>
     );
 };
 

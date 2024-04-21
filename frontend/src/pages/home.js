@@ -18,7 +18,7 @@ function Home() {
             <div className="chat-header">
                 <h2>Chat AI</h2>
             </div>
-            <div className="chat-mes sages">
+            <div className="chat-messages">
                 {/* Display chat messages */}
             </div>
             <div className="chat-input">

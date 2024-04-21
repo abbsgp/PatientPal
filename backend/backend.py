@@ -54,7 +54,7 @@ async def extract(file: UploadFile = File(...), page_limit: Optional[int] = -1):
 
 class DocumentSummaryRequest(BaseModel):
     language: str
-    file_path: str
+    file_path: str | None = 'output.JSON'
     
     
 @app.post("/summarize-document")

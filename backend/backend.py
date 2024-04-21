@@ -1,9 +1,10 @@
 # keep in alphabetical order to keep it clean
 from dotenv import load_dotenv
 import googleapiclient
-import gemini
+import geminiAPI
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 import healthcare
 import json
 import os
@@ -36,6 +37,22 @@ async def extract(file: UploadFile = File(...), page_limit: Optional[int] = -1):
     response = healthcare.extract_medical_text(file.filename, page_limit=page_limit)
     os.remove(file.filename)
     return JSONResponse(content=json.loads(response))
+
+
+class DocumentSummaryRequest(BaseModel):
+    language: str
+    file_path: str
+    
+@app.post("/summarize-document")
+async def summarize_file(request_body: DocumentSummaryRequest):
+    language = request_body.language
+    file_path = request_body.file_path
+    try:
+        summary = geminiAPI.summarizeDocument(language, file_path)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail="Try")
+    
+    return summary
 
 
 def main():

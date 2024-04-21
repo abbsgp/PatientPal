@@ -32,7 +32,14 @@ def loadDocument(file_path):
 # prompt = "Summarize this document: "
 # prompt_with_input = prompt + user_input
 
-
+def returnSummarizeDocument():
+    '''saving Document summary.'''
+    
+def saveChatHistory(chat_history, file_path):
+    """Saves the chat history to a JSON file."""
+    with open(file_path, 'w') as file:
+        json.dump(chat_history, file)
+        
 
 def summarizeDocument(language, document_File_Path):
     """Generates a summary of the document with prompt."""
@@ -46,33 +53,30 @@ def summarizeDocument(language, document_File_Path):
     # Generate summary
     summary = generateSummary(prompt_with_input)
     print("Summary:", summary)
+    # saveChatHistory()
     
-    # # Start a chat with user input
-    # model = genai.GenerativeModel('gemini-pro')
-    # chat = model.start_chat(history=[])
-    # response = chat.send_message(user_input)
-    # print("Response:", response.text)
-    
-    
+    return {"Summary": summary}
+
+def startChat(userInput, chat_history=None):
+    """Starts a chat with user"""
 #   """Uses Gemini API to generate a simple greeting."""
-#   model = genai.GenerativeModel('gemini-pro')
-#   chat = model.start_chat(history=[])
-  
-  
+    model = genai.GenerativeModel('gemini-pro')
     
-# #   user_input = input_data[userInput]
+    #Chat history
+    if chat_history is None:
+        chat = model.start_chat(history=[])
+    else:
+        chat = model.start_chat(history=chat_history)
 
-#   print(prompt_with_input)
+  # Sending response
+    response = chat.send_message(userInput)
 
-#   # Simple prompt 
-#   response = chat.send_message(prompt_with_input)
-
-#   print(response.text)
+    print(response.text)
   
 
 
-if __name__ == "__main__":
-    lang = "Spanish"
-    FilePath = 'output.JSON'
-    summarizeDocument(lang, FilePath)
+# if __name__ == "__main__":
+#     lang = "Spanish"
+#     FilePath = 'output.JSON'
+#     summarizeDocument(lang, FilePath)
     

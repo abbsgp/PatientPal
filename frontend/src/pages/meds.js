@@ -3,9 +3,14 @@ import "./home.css"
 
 function Meds() {
     return (
+        <>
         <div className="page_head">
-            <h1>This is med page</h1>
+            <h1>Medications</h1>
         </div>
+        <div className="chat-container">
+
+        </div>
+        </>
     );
 };
 

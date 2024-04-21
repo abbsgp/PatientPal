@@ -63,15 +63,20 @@ def translate_text(data: str, target_language="es"):
     return response
 
 
-def extract_medical_text(filename: str):
+def extract_medical_text(filename: str, page_limit: int = -1):
     try:
         reader = PdfReader(filename)
     except FileNotFoundError:
         return {"response_code": 400, "error": "invalid filename"}
     pages = reader.pages
     text = ""
+    if page_limit > len(pages):
+        return {"response_code": 400, "error": "invalid page_limit"}
+    if page_limit == -1:
+        page_limit = len(pages)
     responses = []
-    for page in pages:
+    for i in range(page_limit):
+        page = pages[i]
         new_text = page.extract_text()
         if len((text + new_text).encode("utf-16")) > 20000:
             request = (
@@ -131,6 +136,6 @@ def make_api_request():
 
 
 # For testing only
-# print(extract_medical_text("sample_bloodtest.pdf"))
+# print(extract_medical_text("sample_bloodtest.pdf", page_limit=2))
 
 # print(translate_text("Hello world", target_language="es"))
